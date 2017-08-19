@@ -37,3 +37,11 @@ body img {
 	height: 100%;
 	position: relative;
 }
+
+/*	NAVIGATION	*/
+
+/*	BANNER	*/
+.banner {
+	background: url("..img/banner.jpg") no-repeat center;
+	background-size: cover;
+}
