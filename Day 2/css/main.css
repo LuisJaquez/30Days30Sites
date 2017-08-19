@@ -40,8 +40,8 @@ body img {
 
 /*	NAVIGATION	*/
 
-/*	BANNER	*/
-.banner {
+/*	HEADER	*/
+header {
 	background: url("..img/banner.jpg") no-repeat center;
 	background-size: cover;
 }
