@@ -21,7 +21,7 @@ body {
 body a {
 	text-decoration: none !important;
 }
-
+		
 /* image styles */
 body img {
 	max-width: 100%;
@@ -42,13 +42,94 @@ body img {
 
 /*	HEADER	*/
 header {
-	background: url("..img/banner.jpg") no-repeat center;
+	background: url("../img/banner.jpg") no-repeat center;
 	background-size: cover;
+	background-attachment: fixed;
+	padding: 400px 0 400px 0;
+	min-height: 100%;
 }
 .banner {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding-top: 120px;
+}
+.names-text {	
+	font-family: 'Great Vibes', cursive;
+	font-size: 1.8em;
+	color: #fff;
+}
+.names-text::before {
+    content: "";
+    width: 33px;
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    left: -55px;
+    top: 12px;
+}
+.names-text::after {
+    content: "";
+    width: 33px;
+    display: block;
+    height: 3px;
+    background-color: #fff;
+    position: relative;
+    left: 300px;
+    top: -18px;
+}
+.central-text {
+    font-size: 2.2em;
+    text-transform: uppercase;
+    padding-top: 58px;
+    color: #fff;
+}
+.date-text {
+	color: #fff;
+	font-size: 0.8em;
+	margin-top: 52px;
+}
+.invitation-button {
+	margin-top: 40px;
+}
+.invitation-button a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 212px;
+	height: 42px;
+	font-size: 19px;
+	border-radius: 2em;
+	border: solid 1px #906F8D;
+	color: #fff;
+	background-color: #542344;
+	transition: all 0.4s ease-out;
+}
+.invitation-button a:hover {
+	font-size: 25px;
+	background-color: #906F8D;
+}
+footer {
+	background-color: #3D2B3D;
+	height: 64px;
+}
+.footer-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.copyrigth {
+	color: #fff;
+	font-size: 0.8em;
+}
+.copyrigth a {
+	color: #fff;
+	cursor: pointer;
+}
+.social-icons {
+	display: flex;
+	width: 60px;
+	justify-content: center;
+	align-items: center;
 }
