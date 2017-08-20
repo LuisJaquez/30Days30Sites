@@ -143,12 +143,12 @@ nav ul li {
 }
 footer {
 	background-color: #3D2B3D;
-	height: 64px;
+	height: 52px;
 }
-.footer-container {
+.footer-inner {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 .copyrigth {
 	color: #fff;
@@ -160,7 +160,14 @@ footer {
 }
 .social-icons {
 	display: flex;
-	width: 60px;
-	justify-content: center;
+	width: 10%;
+	justify-content: space-around;
 	align-items: center;
+}
+.social-icons i {
+	cursor: pointer;
+	transition: all 0.4s ease-out;
+}
+.social-icons i:hover {
+	color: #fff;
 }
